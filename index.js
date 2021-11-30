@@ -3,4 +3,4 @@ app = express(),
 boardRouter = require('./src/router/boardRouter');
 
 app.use(boardRouter);
-app.listen(8080)
+app.listen(3000)

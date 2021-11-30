@@ -3,5 +3,5 @@ app = express(),
 boardRouter = require('./src/router/boardRouter');
 require('dotenv/config');
 
-console.log(process.env.PORT)
+app.use(boardRouter);
 app.listen(process.env.PORT)
